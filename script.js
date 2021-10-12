@@ -40,7 +40,7 @@ console.log('find the comment with the ID of 823423', find)
 // Find the comment with this ID
 // delete the comment with the ID of 823423
 const findIndex = comments.findIndex(comment => comment.id === 823423)
-console.log('Find the comment with this ID',  findIndex)
+console.log('Find index of the comment with this ID',  findIndex)
 
 // método não funcional
 // comments.splice(findIndex, 1)
